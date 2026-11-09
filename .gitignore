@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+# secrets and personal financial data - never commit
+# ANY .json: Google key files (any name), setup files, test data
+*.json
+*.ckb
+google_token.json
+*.mny
+import/
+# downloaded tools for the .mny importer
+tools/jdk/
+tools/lib/
